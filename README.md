@@ -68,8 +68,9 @@ lodash is also available in a variety of other builds & module formats.
  * [_.create](https://lodash.com/docs#create) for easier object inheritance
  * [_.curry](https://lodash.com/docs#curry) & [_.curryRight](https://lodash.com/docs#curryRight) for creating [curried](http://hughfdjackson.com/javascript/why-curry-helps/) functions
  * [_.debounce](https://lodash.com/docs#debounce) & [_.throttle](https://lodash.com/docs#throttle) are cancelable & accept options for more control
+ * [_.fill](https://lodash.com/docs#fill) to fill arrays with values
  * [_.findIndex](https://lodash.com/docs#findIndex) & [_.findKey](https://lodash.com/docs#findKey) for finding indexes & keys
- * [_.flow](https://lodash.com/docs#flow) to complement [_.flowRight](https://lodash.com/docs#flowRight) (a.k.a `_.backflow` & `_.compose`)
+ * [_.flow](https://lodash.com/docs#flow) to complement [_.flowRight](https://lodash.com/docs#flowRight) (a.k.a `_.compose`)
  * [_.forEach](https://lodash.com/docs#forEach) supports exiting early
  * [_.forIn](https://lodash.com/docs#forIn) for iterating all enumerable properties
  * [_.forOwn](https://lodash.com/docs#forOwn) for iterating own properties
@@ -89,10 +90,10 @@ lodash is also available in a variety of other builds & module formats.
  * [_.runInContext](https://lodash.com/docs#runInContext) for collisionless mixins & easier mocking
  * [_.slice](https://lodash.com/docs#slice) for creating subsets of array-like values
  * [_.sortByAll](https://lodash.com/docs#sortBy) for sorting by multiple properties
+ * [_.spread](https://lodash.com/docs#spread) for creating a function to spread an array of arguments to another
  * [_.support](https://lodash.com/docs#support) for flagging environment features
  * [_.template](https://lodash.com/docs#template) supports [*“imports”*](https://lodash.com/docs#templateSettings-imports) options & [ES template delimiters](http://people.mozilla.org/~jorendorff/es6-draft.html#sec-template-literal-lexical-components)
  * [_.transform](https://lodash.com/docs#transform) as a powerful alternative to [_.reduce](https://lodash.com/docs#reduce) for transforming objects
- * [_.thru](https://lodash.com/docs#thru) to pass values thru method chains
  * [_.xor](https://lodash.com/docs#xor) to complement [_.difference](https://lodash.com/docs#difference), [_.intersection](https://lodash.com/docs#intersection), & [_.union](https://lodash.com/docs#union)
  * [_.bind](https://lodash.com/docs#bind), [_.curry](https://lodash.com/docs#curry), [_.partial](https://lodash.com/docs#partial), &
    [more](https://lodash.com/docs "_.bindKey, _.curryRight, _.partialRight") support customizable argument placeholders
@@ -106,9 +107,11 @@ lodash is also available in a variety of other builds & module formats.
    [more](https://lodash.com/docs "_.findLastKey, _.flowRight, _.forEachRight, _.forInRight, _.forOwnRight, _.partialRight") right-associative methods
  * [_.includes](https://lodash.com/docs#includes), [_.toArray](https://lodash.com/docs#toArray), &
    [more](https://lodash.com/docs "_.at, _.countBy, _.every, _.filter, _.find, _.findLast, _.forEach, _.forEachRight, _.groupBy, _.indexBy, _.invoke, _.map, _.max, _.min, _.partition, _.pluck, _.reduce, _.reduceRight, _.reject, _.shuffle, _.size, _.some, _.sortBy") accept strings
+ * [_#commit](https://lodash.com/docs#prototype-commit) & [_#plant](https://lodash.com/docs#prototype-plant) for working with chain sequences
+ * [_#thru](https://lodash.com/docs#thru) to pass values thru a chain sequence
 
 ## Support
 
-Tested in Chrome 39-40, Firefox 34-35, IE 6-11, Opera 26-27, Safari 5-8, io.js 1.0.4, Node.js 0.8.28 & 0.10.35, PhantomJS 1.9.8, RingoJS 0.11, & Rhino 1.7RC5.
+Tested in Chrome 39-40, Firefox 34-35, IE 6-11, Opera 26-27, Safari 5-8, io.js 1.1.0, Node.js 0.8.28, 0.10.36, & 0.12.0, PhantomJS 1.9.8, RingoJS 0.11, & Rhino 1.7RC5.
 
 Automated [browser](https://saucelabs.com/u/lodash) & [CI](https://travis-ci.org/lodash/lodash/) test runs are available. Special thanks to [Sauce Labs](https://saucelabs.com/) for providing automated browser testing.
